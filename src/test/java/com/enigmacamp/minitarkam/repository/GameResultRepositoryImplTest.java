@@ -111,43 +111,43 @@ class GameResultRepositoryImplTest extends BaseRepoTest {
         GameResult gameResult = new GameResult();
         gameResult.setFootballClubHome(footballClubList.get(0));
         gameResult.setFootballClubAway(footballClubList.get(1));
-        gameResult.setHomeScore(2);
-        gameResult.setAwayScore(0);
+        gameResult.setHomeScore(1);
+        gameResult.setAwayScore(1);
         gameResult.setCompetition(competition);
 
         GameResult gameResult2 = new GameResult();
         gameResult2.setFootballClubHome(footballClubList.get(0));
         gameResult2.setFootballClubAway(footballClubList.get(2));
-        gameResult2.setHomeScore(3);
-        gameResult2.setAwayScore(1);
+        gameResult2.setHomeScore(1);
+        gameResult2.setAwayScore(0);
         gameResult2.setCompetition(competition);
 
         GameResult gameResult3 = new GameResult();
         gameResult3.setFootballClubHome(footballClubList.get(0));
         gameResult3.setFootballClubAway(footballClubList.get(3));
-        gameResult3.setHomeScore(1);
+        gameResult3.setHomeScore(3);
         gameResult3.setAwayScore(1);
         gameResult3.setCompetition(competition);
 
         GameResult gameResult4 = new GameResult();
         gameResult4.setFootballClubHome(footballClubList.get(1));
         gameResult4.setFootballClubAway(footballClubList.get(2));
-        gameResult4.setHomeScore(1);
+        gameResult4.setHomeScore(2);
         gameResult4.setAwayScore(0);
         gameResult4.setCompetition(competition);
 
         GameResult gameResult5 = new GameResult();
         gameResult5.setFootballClubHome(footballClubList.get(1));
         gameResult5.setFootballClubAway(footballClubList.get(3));
-        gameResult5.setHomeScore(4);
+        gameResult5.setHomeScore(1);
         gameResult5.setAwayScore(0);
         gameResult5.setCompetition(competition);
 
         GameResult gameResult6 = new GameResult();
         gameResult6.setFootballClubHome(footballClubList.get(2));
         gameResult6.setFootballClubAway(footballClubList.get(3));
-        gameResult6.setHomeScore(1);
-        gameResult6.setAwayScore(1);
+        gameResult6.setHomeScore(7);
+        gameResult6.setAwayScore(0);
         gameResult6.setCompetition(competition);
 
 
@@ -166,7 +166,7 @@ class GameResultRepositoryImplTest extends BaseRepoTest {
         initCompetition();
         initResult();
         StandingTableService service = new StandingTableServiceImpl(gameResultRepository, competitionRepository);
-        List<StandingTable> result = service.viewTable(17);
+        List<StandingTable> result = service.viewTable(14);
         for (StandingTable standingTable : result) {
             System.out.println(standingTable);
         }

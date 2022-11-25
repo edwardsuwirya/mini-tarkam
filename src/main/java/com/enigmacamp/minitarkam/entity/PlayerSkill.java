@@ -57,4 +57,13 @@ public class PlayerSkill {
     public void setSkillWeight(int skillWeight) {
         this.skillWeight = skillWeight;
     }
+
+    @Override
+    public String toString() {
+        return "PlayerSkill{" +
+                "id=" + id +
+                ", skill=" + skill +
+                ", skillWeight=" + skillWeight +
+                '}';
+    }
 }

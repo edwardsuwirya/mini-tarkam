@@ -25,10 +25,10 @@ public class Player {
     @JoinColumn(name = "position_id")
     private Position position;
 
-    @OneToMany(mappedBy = "player")
+    @OneToMany(mappedBy = "player", cascade = CascadeType.ALL)
     private Set<ClubPlayer> clubs = new HashSet<>();
 
-    @OneToMany(mappedBy = "player")
+    @OneToMany(mappedBy = "player", cascade = CascadeType.ALL)
     private Set<PlayerSkill> skillSet = new HashSet<>();
 
     public long getPlayerId() {
@@ -94,5 +94,19 @@ public class Player {
 
     public void setSkillSet(Set<PlayerSkill> skillSet) {
         this.skillSet = skillSet;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "playerId=" + playerId +
+                ", name='" + name + '\'' +
+                ", birthDate=" + birthDate +
+                ", nationality='" + nationality + '\'' +
+                ", height=" + height +
+                ", position=" + position +
+                ", clubs=" + clubs +
+                ", skillSet=" + skillSet +
+                '}';
     }
 }

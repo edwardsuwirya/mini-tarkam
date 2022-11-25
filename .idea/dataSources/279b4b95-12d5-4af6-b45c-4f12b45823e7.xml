@@ -7,7 +7,7 @@
 16384||10|C|G
 16384||-9223372036854775808|T|G
 16384||10|T|G</Grants>
-      <IntrospectionStateNumber>23750</IntrospectionStateNumber>
+      <IntrospectionStateNumber>24809</IntrospectionStateNumber>
       <ServerVersion>14.6</ServerVersion>
       <StartupTime>1669081741</StartupTime>
       <TimeZones>true ACDT
@@ -1406,7 +1406,7 @@ false posixrules
 14396||10|C|G
 14396||-9223372036854775808|U|G
 14396||10|U|G</Grants>
-      <IntrospectionStateNumber>23750</IntrospectionStateNumber>
+      <IntrospectionStateNumber>24809</IntrospectionStateNumber>
       <ObjectId>16413</ObjectId>
       <Relations>sequence|table|25189|25190|1
 sequence|table|25210|25211|1
@@ -4843,7 +4843,7 @@ sequence|table|17231|17232|1
       <OwnerName>postgres</OwnerName>
     </schema>
     <schema id="263" parent="3" name="minitarkam">
-      <IntrospectionStateNumber>23750</IntrospectionStateNumber>
+      <IntrospectionStateNumber>24809</IntrospectionStateNumber>
       <ObjectId>22925</ObjectId>
       <StateNumber>15226</StateNumber>
       <OwnerName>doadmin</OwnerName>
@@ -4893,7 +4893,7 @@ sequence|table|17231|17232|1
     </sequence>
     <table id="271" parent="263" name="m_club_player">
       <ObjectId>25190</ObjectId>
-      <StateNumber>23739</StateNumber>
+      <StateNumber>24801</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
@@ -4905,25 +4905,25 @@ sequence|table|17231|17232|1
     </table>
     <table id="273" parent="263" name="m_individual_skill">
       <ObjectId>25203</ObjectId>
-      <StateNumber>23743</StateNumber>
+      <StateNumber>24800</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
     <table id="274" parent="263" name="m_player">
       <ObjectId>25211</ObjectId>
-      <StateNumber>23740</StateNumber>
+      <StateNumber>24801</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
     <table id="275" parent="263" name="m_player_skill">
       <ObjectId>25217</ObjectId>
-      <StateNumber>23742</StateNumber>
+      <StateNumber>24801</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
     <table id="276" parent="263" name="m_position">
       <ObjectId>25222</ObjectId>
-      <StateNumber>23741</StateNumber>
+      <StateNumber>24801</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>doadmin</OwnerName>
     </table>
@@ -4996,7 +4996,7 @@ sequence|table|17231|17232|1
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>25194</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>23730</StateNumber>
+      <StateNumber>24801</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
@@ -5072,7 +5072,7 @@ sequence|table|17231|17232|1
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>25208</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>23732</StateNumber>
+      <StateNumber>24800</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
@@ -5142,7 +5142,7 @@ sequence|table|17231|17232|1
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>25215</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>23733</StateNumber>
+      <StateNumber>24801</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
@@ -5199,7 +5199,7 @@ skill_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>25220</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>23734</StateNumber>
+      <StateNumber>24801</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationIds>
@@ -5234,7 +5234,7 @@ default</CollationNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>25225</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>23735</StateNumber>
+      <StateNumber>24801</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
